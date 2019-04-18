@@ -3,9 +3,6 @@ name = "backend"
 version = "0.1.0"
 description = ""
 authors = ["Steve Dignam <steve@dignam.xyz>", "Christopher Dignam <chris@dignam.xyz>"]
-packages = [
-    { include = "cli", from = "backend" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -48,9 +45,6 @@ pytest-timeout = "^1.3"
 pytest-testmon = "^0.9.16"
 pytest-icdiff = "^0.2.0"
 pywatchman = "^1.4"
-
-[tool.poetry.scripts]
-yak = 'cli:cli'
 
 [tool.black]
 py36 = true
