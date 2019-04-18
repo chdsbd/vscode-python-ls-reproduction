@@ -1,6 +1,4 @@
-import pytest
-from core import user_agent
-from core.user_agent import Device, DeviceKind, OS, Browser
+from core.user_agent import DeviceKind
 
 def foo():
-    print('foo')
+    print(DeviceKind.mobile)
